@@ -22,7 +22,7 @@ on:
       armbian_board:
         description: "Select device board."
         required: false
-        default: "zysj"
+        default: "zysja2"
         type: choice
         options:
           - all
@@ -182,6 +182,7 @@ on:
           - zcube1-max
           - zk-r39a
           - zysj
+          - zysja2
       armbian_kernel:
         description: "Select kernel version."
         required: false
