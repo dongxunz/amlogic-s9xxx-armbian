@@ -193,6 +193,7 @@ on:
           - 5.10.y
           - 5.15.y
           - 6.1.y
+          - 6.1.115
           - 6.1.147
           - 6.6.y
           - 6.12.y
@@ -225,6 +226,7 @@ on:
           - flippy
           - dev
           - beta
+          - rk35xx
       armbian_fstype:
         description: "Select armbian rootfs type."
         required: false
